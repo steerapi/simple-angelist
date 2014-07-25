@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple.Careers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <style>
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+      	margin: 0;
+      	padding: 0;
+      	border: 0;
+      	font-size: 100%;
+      	font: inherit;
+      	vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure, 
+      footer, header, hgroup, menu, nav, section {
+      	display: block;
+      }
+      body {
+      	line-height: 1;
+      }
+      ol, ul {
+      	list-style: none;
+      }
+      blockquote, q {
+      	quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+      	content: '';
+      	content: none;
+      }
+      table {
+      	border-collapse: collapse;
+      	border-spacing: 0;
+      }
+      
+    </style>
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <!--if lt IE 10
+    p.browsehappy
+      | You are using an
+      strong outdated
+      | browser. Please
+      a(href="http://browsehappy.com/") upgrade your browser
+      | to improve your experience.
+      
+    -->
+    <div ng-controller="AppCtrl">
+      <div ui-view="main" autoscroll="false"></div>
+      <!-- <div fa-router></div> -->
+      <fa-app class="menu-screen", ng-if="showMenu">
+        <fa-modifier fa-align="[0, 1]", fa-origin="[0, 1]" fa-size="[screenWidth, 64]">
+          <div ng-include="'./views/menu/menu.html'"></div>
+        </fa-modifier>
+        <!-- <fa-animation timeline="menuScroll">
+        <animate targetmodselector="#menuMod" field="translate" startvalue="[-320,0,0]" endvalue="[0,0,0]"></animate>
+        </fa-animation> -->
+      </fa-app>
+      
+    </div>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+    <script src="scripts/vendor.js"></script>
+    
+    <script>
+      //set requirejs's base to where the famous lib folder lives
+      require.config({baseUrl: 'libs'});
+    </script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

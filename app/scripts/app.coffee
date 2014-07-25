@@ -21,8 +21,8 @@ angular
     '$famousStateProvider'
     '$famousUrlRouterProvider'
   	($locationProvider, RestangularProvider, $stateProvider, $urlRouterProvider, $famousStateProvider, $famousUrlRouterProvider, config) ->
-      $locationProvider.html5Mode(false);        
-      
+      $locationProvider.html5Mode(false);
+
       RestangularProvider.setRestangularFields
         id: "objectId"
       RestangularProvider.setBaseUrl "https://api.parse.com/1/"
@@ -33,7 +33,7 @@ angular
         if operation=="getList"
           return data.results
         return data
-      
+
       # Deal with missing trailing slash
       # $urlRouterProvider.rule ($injector, $location) ->
       #   path = $location.path()
@@ -48,7 +48,7 @@ angular
       #         return
       #
       #       path + "/?" + params.join("&")
-    
+
       $urlRouterProvider.otherwise "/login"
 
       # $famousUrlRouterProvider.when "/login","login"
@@ -78,15 +78,15 @@ angular
       #   inTransitionFrom : "inTransitionFunction($callback)",
       #   outTransitionTo: "outTransitionFunction($callback)"
       # })
-      
-      
+
+
       $stateProvider
       .state('login',
         url: "/login",
         views:
           {
             'main': {
-              templateUrl: "/views/login/login.html",
+              templateUrl: "./views/login/login.html",
               controller: "LoginCtrl"
             }
           }
@@ -96,7 +96,7 @@ angular
         views:
           {
             'main': {
-              templateUrl: "/views/profile/profile.html",
+              templateUrl: "./views/profile/profile.html",
               controller: "ProfileCtrl"
             }
           }
@@ -106,7 +106,7 @@ angular
         views:
           {
             'main': {
-              templateUrl: "/views/job/job.html",
+              templateUrl: "./views/job/job.html",
               controller: "JobCtrl"
             }
           }
@@ -116,7 +116,7 @@ angular
         views:
           {
             'main': {
-              templateUrl: "/views/detail/detail.html",
+              templateUrl: "./views/detail/detail.html",
               controller: "DetailCtrl"
             }
           }

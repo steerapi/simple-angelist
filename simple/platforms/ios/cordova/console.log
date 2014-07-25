@@ -1,0 +1,27 @@
+2014-07-24 22:50:11.560 HelloCordova[2226:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-24 22:50:11.610 HelloCordova[2226:70b] Unlimited access to network resources
+2014-07-24 22:50:11.613 HelloCordova[2226:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-24 22:50:11.847 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:12.059 HelloCordova[2226:70b] Finished load of: file:///Users/Troy/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/73E7B743-4229-43FA-8C95-B1400D3BD003/HelloCordova.app/www/index.html
+2014-07-24 22:50:16.001 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:16.377 HelloCordova[2226:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-07-24 22:50:16.377 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:16.463 HelloCordova[2226:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-07-24 22:50:16.463 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:16.939 HelloCordova[2226:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-07-24 22:50:16.939 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:17.088 HelloCordova[2226:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-07-24 22:50:17.089 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:17.221 HelloCordova[2226:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-07-24 22:50:17.221 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:19.154 HelloCordova[2226:70b] Finished load of: http://simplecareers.parseapp.com/authorize?itoken=5dd74ecb-7686-b91e-4126-3afa2cc338ef
+2014-07-24 22:50:19.155 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:21.293 HelloCordova[2226:70b] Finished load of: http://simplecareers.parseapp.com/oauthCallback?code=1147f07632ee53007f0a05c4dd959358
+2014-07-24 22:50:21.293 HelloCordova[2226:70b] Resetting plugins due to page load.
+2014-07-24 22:50:21.718 HelloCordova[2226:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)

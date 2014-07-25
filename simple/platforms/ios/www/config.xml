@@ -1,0 +1,10 @@
+<widget id="careers.simple.app" version="0.0.1">
+     <name>Simple.Careers</name>
+     <description>
+     </description>
+     <author email="hello@simple.careers" href="http://simple.careers">
+         Simple.Careers Team
+     </author>
+     <content src="index.html" />
+     <access origin="*" />
+ </widget>
