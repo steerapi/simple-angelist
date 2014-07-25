@@ -440,6 +440,8 @@
 /Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/scripts/vendor.js \
 /Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/scripts/extensions/Queue.js \
 /Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/scripts/vendor/modernizr.js \
+/Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/styles/anim-in-out.css \
+/Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/styles/bootstrap.css \
 /Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/styles/main.css \
 /Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/styles/vendor.css \
 /Users/Troy/Development/simple-angelist/simple/platforms/android/assets/www/views/detail \
